@@ -37,7 +37,7 @@ In the VacationPy notebook, the Geoapigy API is called to create a map that disp
 - Zero cloudiness
 - Not in the US
 
-A new dataframe (hotel_df) was created to include only the City,	Country,	Latitude,	Longitude,	Humidity and	Hotel Name. After this, a for loop was creted to access the geoapify API and locate the first hotel within 10,000 meters of the city in the dataframe. The results were plotted on a geomap that showcases the dataframe information when you hover over each plot point. 
+A new dataframe (hotel_df) was created to include only the City,	Country,	Latitude,	Longitude,	Humidity and	Hotel Name. After this, a for loop was creted to access the geoapify API and locate the first hotel within 10,000 meters of the cities in the dataframe. The results were plotted on a geomap that showcases the dataframe information when you hover over each plot point. 
 ![image](https://user-images.githubusercontent.com/120599626/229193524-afedc21f-707d-470a-88b4-3194ab96e471.png)
 
-The constraints selected for ideal weather conditions resulted in only one option for a hotel that was 10,000 meters away from a city with ideal weather conditions and that was the Grand Lion Hotel in Riyadh Saudi Arabia. 
+The constraints selected for ideal weather conditions resulted in only one option for a hotel that was 10,000 meters away from a city with ideal weather conditions and that was the Grand Lion Hotel in Riyadh, Saudi Arabia. 
